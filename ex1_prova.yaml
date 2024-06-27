@@ -21,7 +21,6 @@ cells:
     dataRef: "BBDD-IOT_Test"  # Nombre de la fuente de datos en Grafana
     query: "SELECT temperature_1 FROM c_513_isurki"
     label:
-      separator: "cr"
       units: "none"
       decimalPoints: 0
     labelColor:
@@ -35,7 +34,6 @@ cells:
     dataRef: "BBDD-IOT_Test"   # Nombre de la fuente de datos en Grafana
     query: "SELECT temperature_1 FROM c_513_isurki"
     label:
-      separator: "cr"
       units: "ops"
       decimalPoints: 0
     fillColor:
@@ -49,7 +47,6 @@ cells:
     dataRef: "BBDD-IOT_Test"   # Nombre de la fuente de datos en Grafana
     query: "SELECT temperature_1 FROM c_513_isurki"
     label:
-      separator: "colon"
       units: "pps"
       decimalPoints: 0
     labelColor:
@@ -62,7 +59,6 @@ cells:
     dataRef: "BBDD-IOT_Test"   # Nombre de la fuente de datos en Grafana
     query: "SELECT temperature_1 FROM c_513_isurki"
     label:
-      separator: "cr"
       units: "none"
       decimalPoints: 0
     labelColor:
