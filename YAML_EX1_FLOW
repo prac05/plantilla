@@ -18,7 +18,7 @@ cells:
     link:
       url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/src/README.md"
   inbox_depth:
-    dataRef: "MySQL-DB"
+    dataRef: "BBDD-IOT_Test"
     query: "SELECT temperature_0 FROM c_513_isurki LIMIT 50"
     label:
       separator: "cr"
@@ -32,7 +32,7 @@ cells:
         - {color: "red", level: 1000}
     link: *grafana-home
   db_transactions:
-    dataRef: "MySQL-DB"
+    dataRef: "BBDD-IOT_Test"
     query: "SELECT temperature_1 FROM c_513_isurki LIMIT 50"
     label:
       separator: "cr"
