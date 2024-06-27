@@ -19,7 +19,7 @@ cells:
       url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/src/README.md"
   inbox_depth:
     dataRef: "MySQL-DB"
-    query: "SELECT depth FROM inbox WHERE timestamp >= NOW() - INTERVAL 1 HOUR"
+    query: "SELECT temperature_0 FROM c_513_isurki LIMIT 50"
     label:
       separator: "cr"
       units: "none"
@@ -33,7 +33,7 @@ cells:
     link: *grafana-home
   db_transactions:
     dataRef: "MySQL-DB"
-    query: "SELECT transactions FROM db_stats WHERE timestamp >= NOW() - INTERVAL 1 HOUR"
+    query: "SELECT temperature_1 FROM c_513_isurki LIMIT 50"
     label:
       separator: "cr"
       units: "ops"
