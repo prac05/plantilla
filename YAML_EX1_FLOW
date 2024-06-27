@@ -19,7 +19,7 @@ cells:
       url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/src/README.md"
   inbox_depth:
     dataRef: "BBDD-IOT_Test"  # Nombre de la fuente de datos en Grafana
-    query: "SELECT temperature_1 FROM c_513_isurki LIMIT 1"
+    query: "SELECT temperature_1 FROM c_513_isurki"
     label:
       separator: "cr"
       units: "none"
@@ -33,7 +33,7 @@ cells:
     link: *grafana-home
   db_transactions:
     dataRef: "BBDD-IOT_Test"   # Nombre de la fuente de datos en Grafana
-    query: "SELECT temperature_1 FROM c_513_isurki LIMIT 1"
+    query: "SELECT temperature_1 FROM c_513_isurki"
     label:
       separator: "cr"
       units: "ops"
@@ -47,7 +47,7 @@ cells:
     link: *grafana-home
   start_rate:
     dataRef: "BBDD-IOT_Test"   # Nombre de la fuente de datos en Grafana
-    query: "SELECT temperature_1 FROM c_513_isurki LIMIT 1"
+    query: "SELECT temperature_1 FROM c_513_isurki"
     label:
       separator: "colon"
       units: "pps"
@@ -60,7 +60,7 @@ cells:
     link: *grafana-home
   active_workers:
     dataRef: "BBDD-IOT_Test"   # Nombre de la fuente de datos en Grafana
-    query: "SELECT temperature_1 FROM c_513_isurki LIMIT 1"
+    query: "SELECT temperature_1 FROM c_513_isurki"
     label:
       separator: "cr"
       units: "none"
