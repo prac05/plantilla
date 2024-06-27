@@ -30,7 +30,7 @@ cells:
         - {color: "green", level: 0}
         - {color: "orange", level: 500}
         - {color: "red", level: 1000}
-    link: *grafana-home
+    link: http://iot.aiguesmanresa.com:3000/
   db_transactions:
     dataRef: "BBDD-IOT_Test"
     query: "SELECT temperature_1 FROM c_513_isurki LIMIT 50"
@@ -44,10 +44,10 @@ cells:
         - {color: "semi-dark-green", level: 0}
         - {color: "orange", level: 400}
         - {color: "red", level: 800}
-    link: *grafana-home
+    link: http://iot.aiguesmanresa.com:3000/
   start_rate:
-    dataRef: "MySQL-DB"
-    query: "SELECT start_rate FROM metrics WHERE timestamp >= NOW() - INTERVAL 1 HOUR"
+    dataRef: "BBDD-IOT_Test"
+    query: "SELECT temperature_1 FROM c_513_isurki LIMIT 50"
     label:
       separator: "colon"
       units: "pps"
@@ -57,10 +57,10 @@ cells:
       thresholds:
         - {color: "green", level: 0}
         - {color: "orange", level: 100}
-    link: *grafana-home
+    link: http://iot.aiguesmanresa.com:3000/
   active_workers:
-    dataRef: "MySQL-DB"
-    query: "SELECT active_workers FROM worker_stats WHERE timestamp >= NOW() - INTERVAL 1 HOUR"
+    dataRef: "BBDD-IOT_Test"
+    query: "SELECT temperature_1 FROM c_513_isurki LIMIT 50"
     label:
       separator: "cr"
       units: "none"
@@ -70,4 +70,4 @@ cells:
       thresholds:
         - {color: "#888888", level: 0}
         - {color: "light-blue", level: 100}
-    link: *grafana-home
+    link: http://iot.aiguesmanresa.com:3000/
