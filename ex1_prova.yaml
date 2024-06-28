@@ -18,7 +18,7 @@ cellIdPreamble: "cell-"
 cells: 
   drawio:
     link:
-      url: "https://app.diagrams.net/?p=svgdata"
+      url: "https://raw.githubusercontent.com/prac05/plantilla/main/bages%20llobregat_prova_id.drawio.svg"
   docs:
     link:
       url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/README.md"
