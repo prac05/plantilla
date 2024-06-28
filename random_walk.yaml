@@ -49,7 +49,7 @@ cells:
   start_rate:
     dataRef: "temperature_1"
     label:
-      separator: "colon"
+      separator: "cr"
       units: "pps"
       decimalPoints: 0
     labelColor:
