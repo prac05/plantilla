@@ -23,7 +23,7 @@ cells:
     link:
       url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/README.md"
   inbox_depth:
-    dataRef: "A-series"
+    dataRef: "temperature_0"
     label:
       separator: "cr"
       units: "none"
@@ -35,7 +35,7 @@ cells:
         - {color: "red", level: 100}
     link: *grafana-home
   db_transactions:
-    dataRef: "B-series"
+    dataRef: "temperature_1"
     label:
       separator: "cr"
       units: "ops"
