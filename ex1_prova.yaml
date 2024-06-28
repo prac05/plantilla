@@ -13,14 +13,14 @@ cellIdPreamble: "cell-"
 cells: 
   drawio:
     link:
-      url: "https://raw.githubusercontent.com/prac05/plantilla/a07c43586ad761422d5a421df03beb82b880d5fc/bages%20llobregat.drawio.svg"
+      url: "https://app.diagrams.net/?p=svgdata"
   docs:
     link:
       url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/src/README.md"
   inbox_depth:
-    dataRef: "BBDD-IOT_Test"  # Nombre de la fuente de datos en Grafana
-    query: "SELECT temperature_1 FROM c_513_isurki"
+    dataRef: "temperature_0"
     label:
+      separator: "cr"
       units: "none"
       decimalPoints: 0
     labelColor:
@@ -31,9 +31,9 @@ cells:
         - {color: "red", level: 1000}
     link: *grafana-home
   db_transactions:
-    dataRef: "BBDD-IOT_Test"   # Nombre de la fuente de datos en Grafana
-    query: "SELECT temperature_1 FROM c_513_isurki"
+    dataRef: "temperature_1"
     label:
+      separator: "cr"
       units: "ops"
       decimalPoints: 0
     fillColor:
@@ -44,9 +44,9 @@ cells:
         - {color: "red", level: 800}
     link: *grafana-home
   start_rate:
-    dataRef: "BBDD-IOT_Test"   # Nombre de la fuente de datos en Grafana
-    query: "SELECT temperature_1 FROM c_513_isurki"
+    dataRef: "battery"
     label:
+      separator: "colon"
       units: "pps"
       decimalPoints: 0
     labelColor:
@@ -56,9 +56,9 @@ cells:
         - {color: "orange", level: 100}
     link: *grafana-home
   active_workers:
-    dataRef: "BBDD-IOT_Test"   # Nombre de la fuente de datos en Grafana
-    query: "SELECT temperature_1 FROM c_513_isurki"
+    dataRef: "modbus"
     label:
+      separator: "cr"
       units: "none"
       decimalPoints: 0
     labelColor:
@@ -66,4 +66,3 @@ cells:
       thresholds:
         - {color: "#888888", level: 0}
         - {color: "light-blue", level: 100}
-    link: *grafana-home
