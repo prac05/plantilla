@@ -47,7 +47,7 @@ cells:
         - {color: "red", level: 100}
     link: *grafana-home
   start_rate:
-    dataRef: "B-series"
+    dataRef: "temperature_1"
     label:
       separator: "colon"
       units: "pps"
@@ -58,7 +58,7 @@ cells:
         - {color: "orange", level: 50}
     link: *grafana-home
   active_workers:
-    dataRef: "A-series"
+    dataRef: "temperature_0"
     label:
       separator: "cr"
       units: "none"
