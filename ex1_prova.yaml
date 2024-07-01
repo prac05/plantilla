@@ -57,14 +57,3 @@ cells:
         - {color: "green", level: 0}
         - {color: "orange", level: 50}
     link: *grafana-home
-  active_workers:
-    dataRef: "temperature_0"
-    label:
-      separator: "cr"
-      units: "none"
-      decimalPoints: 0
-  diposit_santpedor:
-      thresholds:
-        - {color: "#888888", level: 0}
-        - {color: "light-blue", level: 50}
-    link: *grafana-home
