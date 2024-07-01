@@ -1,0 +1,70 @@
+# This panelConfig is intended for use with Svg1. It differs from the main panelConfig
+# in that it uses grafana suplied RandomWalk time-series. This is useful for demonstrating
+# that the panel works with externally provided time-series. However as we have no say on
+# the range of values, it's not that useful as a demonstrator of thresholds.
+#------------------------------------------------------------------------------
+# YAML Aliases to simplify maintenance
+
+anchorLinks:
+  - link: &grafana-home
+      url: "https://grafana.com/"
+      params: "time"
+
+#------------------------------------------------------------------------------
+# Panel Config
+
+gradientMode: "hue"
+cellIdPreamble: "cell-"
+cells: 
+  drawio:
+    link:
+      url: "https://app.diagrams.net/?p=svgdata"
+  docs:
+    link:
+      url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/README.md"
+  sallent:
+    dataRef: "PLC1"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+    labelColor:
+      thresholds:
+        - {color: "green", level: 0}
+        - {color: "orange", level: 50}
+        - {color: "red", level: 100}
+    link: *grafana-home
+  etap_bagesllobregat_1:
+    dataRef: "cabal_acumulat"
+    label:
+      separator: "cr"
+      units: "ops"
+      decimalPoints: 0
+    fillColor:
+      thresholds:
+        - {color: "semi-dark-green", level: 0}
+        - {color: "orange", level: 50}
+        - {color: "red", level: 100}
+    link: *grafana-home
+  etap_bagesllobregat_2:
+    dataRef: "PLC1"
+    label:
+      separator: "cr"
+      units: "pps"
+      decimalPoints: 0
+    labelColor:
+      thresholds:
+        - {color: "green", level: 0}
+        - {color: "orange", level: 50}
+    link: *grafana-home
+  d_aigua_crua1:
+    dataRef: "CABAL_ACUMULAT"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+    labelColor:
+      thresholds:
+        - {color: "#888888", level: 0}
+        - {color: "light-blue", level: 50}
+    link: *grafana-home
