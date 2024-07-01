@@ -31,10 +31,10 @@ cells:
     labelColor:
       thresholds:
         - {color: "red", level: 0}
-        - {color: "red", level: 19.99}
-        - {color: "#006400", level: 20}
-        - {color: "#006400", level: 40}
-        - {color: "red", level: 40.01}
+        - {color: "red", level: 80.99}
+        - {color: "#006400", level: 81}
+        - {color: "#006400", level: 140}
+        - {color: "red", level: 150}
     fillColor:
       thresholds:
         - {color: "blue", level: 0}
@@ -48,10 +48,10 @@ cells:
     labelColor:
       thresholds:
         - {color: "red", level: 0}
-        - {color: "red", level: 19.99}
-        - {color: "#006400", level: 20}
-        - {color: "#006400", level: 40}
-        - {color: "red", level: 40.01}
+        - {color: "red", level: 80.99}
+        - {color: "#006400", level: 81}
+        - {color: "#006400", level: 140}
+        - {color: "red", level: 150}
     fillColor:
       thresholds:
         - {color: "blue", level: 0}
@@ -65,10 +65,10 @@ cells:
     labelColor:
       thresholds:
         - {color: "red", level: 0}
-        - {color: "red", level: 19.99}
-        - {color: "#006400", level: 20}
-        - {color: "#006400", level: 40}
-        - {color: "red", level: 40.01}
+        - {color: "red", level: 80.99}
+        - {color: "#006400", level: 81}
+        - {color: "#006400", level: 140}
+        - {color: "red", level: 150}
     fillColor:
       thresholds:
         - {color: "blue", level: 0}
@@ -82,10 +82,10 @@ cells:
     labelColor:
       thresholds:
         - {color: "red", level: 0}
-        - {color: "red", level: 19.99}
-        - {color: "#006400", level: 20}
-        - {color: "#006400", level: 40}
-        - {color: "red", level: 40.01}
+        - {color: "red", level: 80.99}
+        - {color: "#006400", level: 81}
+        - {color: "#006400", level: 140}
+        - {color: "red", level: 150}
     fillColor:
       thresholds:
         - {color: "blue", level: 0}
@@ -99,10 +99,10 @@ cells:
     labelColor:
       thresholds:
         - {color: "red", level: 0}
-        - {color: "red", level: 19.99}
-        - {color: "#006400", level: 20}
-        - {color: "#006400", level: 40}
-        - {color: "red", level: 40.01}
+        - {color: "red", level: 80.99}
+        - {color: "#006400", level: 81}
+        - {color: "#006400", level: 140}
+        - {color: "red", level: 150}
     fillColor:
       thresholds:
         - {color: "blue", level: 0}
@@ -116,10 +116,10 @@ cells:
     labelColor:
       thresholds:
         - {color: "red", level: 0}
-        - {color: "red", level: 19.99}
-        - {color: "#006400", level: 20}
-        - {color: "#006400", level: 40}
-        - {color: "red", level: 40.01}
+        - {color: "red", level: 80.99}
+        - {color: "#006400", level: 81}
+        - {color: "#006400", level: 140}
+        - {color: "red", level: 150}
     fillColor:
       thresholds:
         - {color: "blue", level: 0}
@@ -133,10 +133,10 @@ cells:
     labelColor:
       thresholds:
         - {color: "red", level: 0}
-        - {color: "red", level: 19.99}
-        - {color: "#006400", level: 20}
-        - {color: "#006400", level: 40}
-        - {color: "red", level: 40.01}
+        - {color: "red", level: 80.99}
+        - {color: "#006400", level: 81}
+        - {color: "#006400", level: 140}
+        - {color: "red", level: 150}
     fillColor:
       thresholds:
         - {color: "blue", level: 0}
@@ -150,10 +150,10 @@ cells:
     labelColor:
       thresholds:
         - {color: "red", level: 0}
-        - {color: "red", level: 19.99}
-        - {color: "#006400", level: 20}
-        - {color: "#006400", level: 40}
-        - {color: "red", level: 40.01}
+        - {color: "red", level: 80.99}
+        - {color: "#006400", level: 81}
+        - {color: "#006400", level: 140}
+        - {color: "red", level: 150}
     fillColor:
       thresholds:
         - {color: "blue", level: 0}
@@ -167,10 +167,10 @@ cells:
     labelColor:
       thresholds:
         - {color: "red", level: 0}
-        - {color: "red", level: 19.99}
-        - {color: "#006400", level: 20}
-        - {color: "#006400", level: 40}
-        - {color: "red", level: 40.01}
+        - {color: "red", level: 80.99}
+        - {color: "#006400", level: 81}
+        - {color: "#006400", level: 140}
+        - {color: "red", level: 150}
     fillColor:
       thresholds:
         - {color: "blue", level: 0}
@@ -184,10 +184,10 @@ cells:
     labelColor:
       thresholds:
         - {color: "red", level: 0}
-        - {color: "red", level: 19.99}
-        - {color: "#006400", level: 20}
-        - {color: "#006400", level: 40}
-        - {color: "red", level: 40.01}
+        - {color: "red", level: 80.99}
+        - {color: "#006400", level: 81}
+        - {color: "#006400", level: 140}
+        - {color: "red", level: 150}
     fillColor:
       thresholds:
         - {color: "blue", level: 0}
@@ -201,10 +201,10 @@ cells:
     labelColor:
       thresholds:
         - {color: "red", level: 0}
-        - {color: "red", level: 19.99}
-        - {color: "#006400", level: 20}
-        - {color: "#006400", level: 40}
-        - {color: "red", level: 40.01}
+        - {color: "red", level: 80.99}
+        - {color: "#006400", level: 81}
+        - {color: "#006400", level: 140}
+        - {color: "red", level: 150}
     fillColor:
       thresholds:
         - {color: "blue", level: 0}
@@ -218,10 +218,10 @@ cells:
     labelColor:
       thresholds:
         - {color: "red", level: 0}
-        - {color: "red", level: 19.99}
-        - {color: "#006400", level: 20}
-        - {color: "#006400", level: 40}
-        - {color: "red", level: 40.01}
+        - {color: "red", level: 80.99}
+        - {color: "#006400", level: 81}
+        - {color: "#006400", level: 140}
+        - {color: "red", level: 150}
     fillColor:
       thresholds:
         - {color: "blue", level: 0}
@@ -235,10 +235,10 @@ cells:
     labelColor:
       thresholds:
         - {color: "red", level: 0}
-        - {color: "red", level: 19.99}
-        - {color: "#006400", level: 20}
-        - {color: "#006400", level: 40}
-        - {color: "red", level: 40.01}
+        - {color: "red", level: 80.99}
+        - {color: "#006400", level: 81}
+        - {color: "#006400", level: 140}
+        - {color: "red", level: 150}
     fillColor:
       thresholds:
         - {color: "blue", level: 0}
@@ -252,10 +252,10 @@ cells:
     labelColor:
       thresholds:
         - {color: "red", level: 0}
-        - {color: "red", level: 19.99}
-        - {color: "#006400", level: 20}
-        - {color: "#006400", level: 40}
-        - {color: "red", level: 40.01}
+        - {color: "red", level: 80.99}
+        - {color: "#006400", level: 81}
+        - {color: "#006400", level: 140}
+        - {color: "red", level: 150}
     fillColor:
       thresholds:
         - {color: "blue", level: 0}
@@ -269,10 +269,10 @@ cells:
     labelColor:
       thresholds:
         - {color: "red", level: 0}
-        - {color: "red", level: 19.99}
-        - {color: "#006400", level: 20}
-        - {color: "#006400", level: 40}
-        - {color: "red", level: 40.01}
+        - {color: "red", level: 80.99}
+        - {color: "#006400", level: 81}
+        - {color: "#006400", level: 140}
+        - {color: "red", level: 150}
     fillColor:
       thresholds:
         - {color: "blue", level: 0}
@@ -286,10 +286,10 @@ cells:
     labelColor:
       thresholds:
         - {color: "red", level: 0}
-        - {color: "red", level: 19.99}
-        - {color: "#006400", level: 20}
-        - {color: "#006400", level: 40}
-        - {color: "red", level: 40.01}
+        - {color: "red", level: 80.99}
+        - {color: "#006400", level: 81}
+        - {color: "#006400", level: 140}
+        - {color: "red", level: 150}
     fillColor:
       thresholds:
         - {color: "blue", level: 0}
@@ -303,10 +303,10 @@ cells:
     labelColor:
       thresholds:
         - {color: "red", level: 0}
-        - {color: "red", level: 19.99}
-        - {color: "#006400", level: 20}
-        - {color: "#006400", level: 40}
-        - {color: "red", level: 40.01}
+        - {color: "red", level: 80.99}
+        - {color: "#006400", level: 81}
+        - {color: "#006400", level: 140}
+        - {color: "red", level: 150}
     fillColor:
       thresholds:
         - {color: "blue", level: 0}
@@ -320,10 +320,10 @@ cells:
     labelColor:
       thresholds:
         - {color: "red", level: 0}
-        - {color: "red", level: 19.99}
-        - {color: "#006400", level: 20}
-        - {color: "#006400", level: 40}
-        - {color: "red", level: 40.01}
+        - {color: "red", level: 80.99}
+        - {color: "#006400", level: 81}
+        - {color: "#006400", level: 140}
+        - {color: "red", level: 150}
     fillColor:
       thresholds:
         - {color: "blue", level: 0}
@@ -337,10 +337,10 @@ cells:
     labelColor:
       thresholds:
         - {color: "red", level: 0}
-        - {color: "red", level: 19.99}
-        - {color: "#006400", level: 20}
-        - {color: "#006400", level: 40}
-        - {color: "red", level: 40.01}
+        - {color: "red", level: 80.99}
+        - {color: "#006400", level: 81}
+        - {color: "#006400", level: 140}
+        - {color: "red", level: 150}
     fillColor:
       thresholds:
         - {color: "blue", level: 0}
@@ -354,10 +354,10 @@ cells:
     labelColor:
       thresholds:
         - {color: "red", level: 0}
-        - {color: "red", level: 19.99}
-        - {color: "#006400", level: 20}
-        - {color: "#006400", level: 40}
-        - {color: "red", level: 40.01}
+        - {color: "red", level: 80.99}
+        - {color: "#006400", level: 81}
+        - {color: "#006400", level: 140}
+        - {color: "red", level: 150}
     fillColor:
       thresholds:
         - {color: "blue", level: 0}
@@ -371,10 +371,10 @@ cells:
     labelColor:
       thresholds:
         - {color: "red", level: 0}
-        - {color: "red", level: 19.99}
-        - {color: "#006400", level: 20}
-        - {color: "#006400", level: 40}
-        - {color: "red", level: 40.01}
+        - {color: "red", level: 80.99}
+        - {color: "#006400", level: 81}
+        - {color: "#006400", level: 140}
+        - {color: "red", level: 150}
     fillColor:
       thresholds:
         - {color: "blue", level: 0}
@@ -388,10 +388,10 @@ cells:
     labelColor:
       thresholds:
         - {color: "red", level: 0}
-        - {color: "red", level: 19.99}
-        - {color: "#006400", level: 20}
-        - {color: "#006400", level: 40}
-        - {color: "red", level: 40.01}
+        - {color: "red", level: 80.99}
+        - {color: "#006400", level: 81}
+        - {color: "#006400", level: 140}
+        - {color: "red", level: 150}
     fillColor:
       thresholds:
         - {color: "blue", level: 0}
@@ -405,10 +405,10 @@ cells:
     labelColor:
       thresholds:
         - {color: "red", level: 0}
-        - {color: "red", level: 19.99}
-        - {color: "#006400", level: 20}
-        - {color: "#006400", level: 40}
-        - {color: "red", level: 40.01}
+        - {color: "red", level: 80.99}
+        - {color: "#006400", level: 81}
+        - {color: "#006400", level: 140}
+        - {color: "red", level: 150}
     fillColor:
       thresholds:
         - {color: "blue", level: 0}
@@ -422,10 +422,10 @@ cells:
     labelColor:
       thresholds:
         - {color: "red", level: 0}
-        - {color: "red", level: 19.99}
-        - {color: "#006400", level: 20}
-        - {color: "#006400", level: 40}
-        - {color: "red", level: 40.01}
+        - {color: "red", level: 80.99}
+        - {color: "#006400", level: 81}
+        - {color: "#006400", level: 140}
+        - {color: "red", level: 150}
     fillColor:
       thresholds:
         - {color: "blue", level: 0}
