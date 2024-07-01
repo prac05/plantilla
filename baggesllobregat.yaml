@@ -22,12 +22,12 @@ cells:
   docs:
     link:
       url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/README.md"
-  santpedor:
+  sallent:
     dataRef: "temperature_0"
     label:
       separator: "cr"
       units: "none"
-      decimalPoints: 0
+      decimalPoints: 1
     labelColor:
       thresholds:
         - {color: "green", level: 0}
@@ -39,7 +39,7 @@ cells:
     label:
       separator: "cr"
       units: "ops"
-      decimalPoints: 0
+      decimalPoints: 1
     fillColor:
       thresholds:
         - {color: "semi-dark-green", level: 0}
@@ -51,7 +51,7 @@ cells:
     label:
       separator: "cr"
       units: "pps"
-      decimalPoints: 0
+      decimalPoints: 1
     labelColor:
       thresholds:
         - {color: "green", level: 0}
