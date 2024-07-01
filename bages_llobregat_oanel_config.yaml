@@ -175,7 +175,7 @@ cells:
       thresholds:
         - {color: "blue", level: 0}
     link: *grafana-home
-  b_cabrianes2:
+  b_cabrianes_2:
     dataRef: "temperature_1"
     label:
       separator: "cr"
