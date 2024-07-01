@@ -278,7 +278,7 @@ cells:
         - {color: "blue", level: 0}
     link: *grafana-home
   b_paloma:
-    dataRef: "temperature_1"
+    dataRef: "temperature_0"
     label:
       separator: "cr"
       units: "ops"  # Ajusta las unidades según corresponda
