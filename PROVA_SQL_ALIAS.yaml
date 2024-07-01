@@ -40,7 +40,7 @@ cells:
         - {color: "blue", level: 0}
     link: *grafana-home
   etap_bagesllobregat_1:
-    dataRef: "temperature_1"
+    dataRef: "nivell"
     label:
       separator: "cr"
       units: "m3"
@@ -57,7 +57,7 @@ cells:
         - {color: "blue", level: 0}
     link: *grafana-home
   etap_bagesllobregat_2:
-    dataRef: "temperature_1"
+    dataRef: "nivell"
     label:
       separator: "cr"
       units: "m3"
@@ -74,7 +74,7 @@ cells:
         - {color: "blue", level: 0}
     link: *grafana-home
   d_aigua_crua1:
-    dataRef: "temperature_1"
+    dataRef: "nivell"
     label:
       separator: "cr"
       units: "m3"  
@@ -91,7 +91,7 @@ cells:
         - {color: "blue", level: 0}
     link: *grafana-home
   d_aigua_crua_2:
-    dataRef: "temperature_1"
+    dataRef: "nivell"
     label:
       separator: "cr"
       units: "m3"  
@@ -108,7 +108,7 @@ cells:
         - {color: "blue", level: 0}
     link: *grafana-home
   arqueta_aigua_crua:
-    dataRef: "temperature_1"
+    dataRef: "nivell"
     label:
       separator: "cr"
       units: "m3"  
@@ -125,7 +125,7 @@ cells:
         - {color: "blue", level: 0}
     link: *grafana-home
   bombament_aigua_crua:
-    dataRef: "temperature_1"
+    dataRef: "nivell"
     label:
       separator: "cr"
       units: "m3"  
@@ -142,7 +142,7 @@ cells:
         - {color: "blue", level: 0}
     link: *grafana-home
   d_cabrianes:
-    dataRef: "temperature_1"
+    dataRef: "nivell"
     label:
       separator: "cr"
       units: "m3"  
@@ -159,7 +159,7 @@ cells:
         - {color: "blue", level: 0}
     link: *grafana-home
   b_cabrianes1:
-    dataRef: "temperature_1"
+    dataRef: "nivell"
     label:
       separator: "cr"
       units: "m3"  
@@ -176,7 +176,7 @@ cells:
         - {color: "blue", level: 0}
     link: *grafana-home
   b_cabrianes_2:
-    dataRef: "temperature_1"
+    dataRef: "nivell"
     label:
       separator: "cr"
       units: "m3"  
@@ -193,7 +193,7 @@ cells:
         - {color: "blue", level: 0}
     link: *grafana-home
   d_horta_avinyo:
-    dataRef: "temperature_1"
+    dataRef: "nivell"
     label:
       separator: "cr"
       units: "m3"  
@@ -210,7 +210,7 @@ cells:
         - {color: "blue", level: 0}
     link: *grafana-home
   d_soler:
-    dataRef: "temperature_1"
+    dataRef: "nivell"
     label:
       separator: "cr"
       units: "m3"  
@@ -227,7 +227,7 @@ cells:
         - {color: "blue", level: 0}
     link: *grafana-home
   d_turic2:
-    dataRef: "temperature_1"
+    dataRef: "nivell"
     label:
       separator: "cr"
       units: "m3"  
@@ -244,7 +244,7 @@ cells:
         - {color: "blue", level: 0}
     link: *grafana-home
   d_paloma:
-    dataRef: "temperature_1"
+    dataRef: "nivell"
     label:
       separator: "cr"
       units: "m3"  
@@ -261,7 +261,7 @@ cells:
         - {color: "blue", level: 0}
     link: *grafana-home
   d_can_vila:
-    dataRef: "temperature_1"
+    dataRef: "nivell"
     label:
       separator: "cr"
       units: "m3"  
@@ -295,7 +295,7 @@ cells:
         - {color: "blue", level: 0}
     link: *grafana-home
   d_pirineu:
-    dataRef: "temperature_1"
+    dataRef: "nivell"
     label:
       separator: "cr"
       units: "m3"  
@@ -312,7 +312,7 @@ cells:
         - {color: "blue", level: 0}
     link: *grafana-home
   b_pirineu:
-    dataRef: "temperature_1"
+    dataRef: "nivell"
     label:
       separator: "cr"
       units: "m3"  
@@ -329,7 +329,7 @@ cells:
         - {color: "blue", level: 0}
     link: *grafana-home
   d_vista_pirineu1:
-    dataRef: "temperature_1"
+    dataRef: "nivell"
     label:
       separator: "cr"
       units: "m3"  
@@ -346,7 +346,7 @@ cells:
         - {color: "blue", level: 0}
     link: *grafana-home
   d_vista_pirineu2:
-    dataRef: "temperature_1"
+    dataRef: "nivell"
     label:
       separator: "cr"
       units: "m3"  
@@ -363,7 +363,7 @@ cells:
         - {color: "blue", level: 0}
     link: *grafana-home
   d_grau_elevat:
-    dataRef: "temperature_1"
+    dataRef: "nivell"
     label:
       separator: "cr"
       units: "m3"  
@@ -397,7 +397,7 @@ cells:
         - {color: "blue", level: 0}
     link: *grafana-home
   d_grau:
-    dataRef: "temperature_1"
+    dataRef: "nivell"
     label:
       separator: "cr"
       units: "m3"  
@@ -414,7 +414,7 @@ cells:
         - {color: "blue", level: 0}
     link: *grafana-home
   b_grau_emergencia:
-    dataRef: "temperature_1"
+    dataRef: "nivell"
     label:
       separator: "cr"
       units: "m3"  
