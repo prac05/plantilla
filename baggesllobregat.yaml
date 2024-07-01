@@ -30,9 +30,12 @@ cells:
       decimalPoints: 1
     labelColor:
       thresholds:
-        - {color: "green", level: 0}
-        - {color: "orange", level: 50}
-        - {color: "red", level: 100}
+        - {color: "red", level: 20}
+        - {color: "green", level: 20.01}
+        - {color: "red", level: 40.01}
+    fillColor:
+      thresholds:
+        - {color: "blue", level: 0}
     link: *grafana-home
   etap_bagesllobregat_1:
     dataRef: "temperature_1"
@@ -40,11 +43,14 @@ cells:
       separator: "cr"
       units: "ops"
       decimalPoints: 1
+    labelColor:
+      thresholds:
+        - {color: "red", level: 20}
+        - {color: "green", level: 20.01}
+        - {color: "red", level: 40.01}
     fillColor:
       thresholds:
-        - {color: "semi-dark-green", level: 0}
-        - {color: "orange", level: 50}
-        - {color: "red", level: 100}
+        - {color: "blue", level: 0}
     link: *grafana-home
   etap_bagesllobregat_2:
     dataRef: "temperature_1"
@@ -54,8 +60,12 @@ cells:
       decimalPoints: 1
     labelColor:
       thresholds:
-        - {color: "green", level: 0}
-        - {color: "orange", level: 50}
+        - {color: "red", level: 20}
+        - {color: "green", level: 20.01}
+        - {color: "red", level: 40.01}
+    fillColor:
+      thresholds:
+        - {color: "blue", level: 0}
     link: *grafana-home
   active_workers:
     dataRef: "temperature_0"
@@ -65,6 +75,10 @@ cells:
       decimalPoints: 0
     labelColor:
       thresholds:
-        - {color: "#888888", level: 0}
-        - {color: "light-blue", level: 50}
+        - {color: "red", level: 20}
+        - {color: "green", level: 20.01}
+        - {color: "red", level: 40.01}
+    fillColor:
+      thresholds:
+        - {color: "blue", level: 0}
     link: *grafana-home
