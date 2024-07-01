@@ -23,7 +23,7 @@ cells:
     link:
       url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/README.md"
   sallent:
-    dataRef: "temperature_0"
+    dataRef: "nivell"
     label:
       separator: "cr"
       units: "m3"
@@ -278,7 +278,7 @@ cells:
         - {color: "blue", level: 0}
     link: *grafana-home
   b_paloma:
-    dataRef: "temperature_0"
+    dataRef: "nivell"
     label:
       separator: "cr"
       units: "m3"  
@@ -380,7 +380,7 @@ cells:
         - {color: "blue", level: 0}
     link: *grafana-home
   b_grau_elevat:
-    dataRef: "temperature_0"
+    dataRef: "nivell"
     label:
       separator: "cr"
       units: "m3"  
