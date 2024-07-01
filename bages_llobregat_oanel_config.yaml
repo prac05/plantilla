@@ -1,0 +1,92 @@
+# This panelConfig is intended for use with Svg1. It differs from the main panelConfig
+# in that it uses grafana suplied RandomWalk time-series. This is useful for demonstrating
+# that the panel works with externally provided time-series. However as we have no say on
+# the range of values, it's not that useful as a demonstrator of thresholds.
+#------------------------------------------------------------------------------
+# YAML Aliases to simplify maintenance
+
+anchorLinks:
+  - link: &grafana-home
+      url: "https://grafana.com/"
+      params: "time"
+
+#------------------------------------------------------------------------------
+# Panel Config
+
+gradientMode: "hue"
+cellIdPreamble: "cell-"
+cells: 
+  drawio:
+    link:
+      url: "https://app.diagrams.net/?p=svgdata"
+  docs:
+    link:
+      url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/README.md"
+  sallent:
+    dataRef: "temperature_0"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 1
+    labelColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 19.99}
+        - {color: "#006400", level: 20}
+        - {color: "#006400", level: 40}
+        - {color: "red", level: 40.01}
+    fillColor:
+      thresholds:
+        - {color: "blue", level: 0}
+    link: *grafana-home
+  etap_bagesllobregat_1:
+    dataRef: "temperature_1"
+    label:
+      separator: "cr"
+      units: "ops"
+      decimalPoints: 1
+    labelColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 19.99}
+        - {color: "#006400", level: 20}
+        - {color: "#006400", level: 40}
+        - {color: "red", level: 40.01}
+    fillColor:
+      thresholds:
+        - {color: "blue", level: 0}
+    link: *grafana-home
+  etap_bagesllobregat_2:
+    dataRef: "temperature_1"
+    label:
+      separator: "cr"
+      units: "pps"
+      decimalPoints: 1
+    labelColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 19.99}
+        - {color: "#006400", level: 20}
+        - {color: "#006400", level: 40}
+        - {color: "red", level: 40.01}
+    fillColor:
+      thresholds:
+        - {color: "blue", level: 0}
+    link: *grafana-home
+  active_workers:
+    dataRef: "temperature_0"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+    labelColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 19.99}
+        - {color: "#006400", level: 20}
+        - {color: "#006400", level: 40}
+        - {color: "red", level: 40.01}
+    fillColor:
+      thresholds:
+        - {color: "blue", level: 0}
+    link: *grafana-home
