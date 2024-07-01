@@ -60,7 +60,7 @@ cells:
     dataRef: "temperature_1"
     label:
       separator: "cr"
-      units: "pps"
+      units: "m³"
       decimalPoints: 1
     labelColor:
       thresholds:
@@ -94,7 +94,7 @@ cells:
     dataRef: "temperature_1"
     label:
       separator: "cr"
-      units: "pps"  
+      units: "m³"  
       decimalPoints: 1
     labelColor:
       thresholds:
@@ -128,7 +128,7 @@ cells:
     dataRef: "temperature_1"
     label:
       separator: "cr"
-      units: "pps"  
+      units: "m³"  
       decimalPoints: 1
     labelColor:
       thresholds:
