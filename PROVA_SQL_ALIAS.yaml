@@ -28,6 +28,9 @@ cells:
       separator: "cr"
       units: "m3"
       decimalPoints: 1
+    fillColor:
+      thresholds:
+        - {color: "blue", level: 0}
     labelColor:
       thresholds:
         - {color: "red", level: 0}
@@ -35,7 +38,4 @@ cells:
         - {color: "#006400", level: 86}
         - {color: "#006400", level: 120}
         - {color: "red", level: 120.01}
-    fillColor:
-      thresholds:
-        - {color: "blue", level: 0}
     link: *grafana-home
