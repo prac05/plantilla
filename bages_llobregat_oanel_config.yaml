@@ -243,7 +243,7 @@ cells:
       thresholds:
         - {color: "blue", level: 0}
     link: *grafana-home
-  d_paloma:
+  b_paloma:
     dataRef: "temperature_1"
     label:
       separator: "cr"
