@@ -37,7 +37,7 @@ cells:
         - {color: "red", level: 40.01}
     fillColor:
       thresholds:
-        - {color: "blue", level: 0, height: "${__cell_height}"}
+        - {color: "blue", level: 0}
     link: *grafana-home
   etap_bagesllobregat_1:
     dataRef: "temperature_1"
