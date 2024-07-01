@@ -290,3 +290,94 @@ cells:
         - {color: "#006400", level: 20}
         - {color: "#006400", level: 40}
     link: *grafana-home
+  d_pirineu:
+    dataRef: "temperature_1"
+    label:
+      separator: "cr"
+      units: "pps"  # Ajusta las unidades según corresponda
+      decimalPoints: 1
+    labelColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 19.99}
+        - {color: "#006400", level: 20}
+        - {color: "#006400", level: 40}
+    link: *grafana-home
+  d_vista_pirineu1:
+    dataRef: "temperature_1"
+    label:
+      separator: "cr"
+      units: "pps"  # Ajusta las unidades según corresponda
+      decimalPoints: 1
+    labelColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 19.99}
+        - {color: "#006400", level: 20}
+        - {color: "#006400", level: 40}
+    link: *grafana-home
+  d_vista_pirineu2:
+    dataRef: "temperature_1"
+    label:
+      separator: "cr"
+      units: "pps"  # Ajusta las unidades según corresponda
+      decimalPoints: 1
+    labelColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 19.99}
+        - {color: "#006400", level: 20}
+        - {color: "#006400", level: 40}
+    link: *grafana-home
+  d_grau:
+    dataRef: "temperature_1"
+    label:
+      separator: "cr"
+      units: "pps"  # Ajusta las unidades según corresponda
+      decimalPoints: 1
+    labelColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 19.99}
+        - {color: "#006400", level: 20}
+        - {color: "#006400", level: 40}
+    link: *grafana-home
+  b_grau_elevat:
+    dataRef: "temperature_1"
+    label:
+      separator: "cr"
+      units: "pps"  # Ajusta las unidades según corresponda
+      decimalPoints: 1
+    labelColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 19.99}
+        - {color: "#006400", level: 20}
+        - {color: "#006400", level: 40}
+    link: *grafana-home
+  d_grau_elevat:
+    dataRef: "temperature_1"
+    label:
+      separator: "cr"
+      units: "pps"  # Ajusta las unidades según corresponda
+      decimalPoints: 1
+    labelColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 19.99}
+        - {color: "#006400", level: 20}
+        - {color: "#006400", level: 40}
+    link: *grafana-home 
+  b_grau_emergencia:
+    dataRef: "temperature_1"
+    label:
+      separator: "cr"
+      units: "pps"  # Ajusta las unidades según corresponda
+      decimalPoints: 1
+    labelColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 19.99}
+        - {color: "#006400", level: 20}
+        - {color: "#006400", level: 40}
+    link: *grafana-home  
