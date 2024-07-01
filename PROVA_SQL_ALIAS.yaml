@@ -37,7 +37,7 @@ cells:
         - {color: "red", level: 150}
     fillColor:
       thresholds:
-        - {color: "blue", level: 0}
+        - {color: "blue", level: 90}
     link: *grafana-home
   etap_bagesllobregat_1:
     dataRef: "nivell"
@@ -54,7 +54,7 @@ cells:
         - {color: "red", level: 150}
     fillColor:
       thresholds:
-        - {color: "blue", level: 0}
+        - {color: "blue", level: 90}
     link: *grafana-home
   etap_bagesllobregat_2:
     dataRef: "nivell"
@@ -71,7 +71,7 @@ cells:
         - {color: "red", level: 150}
     fillColor:
       thresholds:
-        - {color: "blue", level: 0}
+        - {color: "blue", level: 90}
     link: *grafana-home
   d_aigua_crua1:
     dataRef: "nivell"
@@ -88,7 +88,7 @@ cells:
         - {color: "red", level: 150}
     fillColor:
       thresholds:
-        - {color: "blue", level: 0}
+        - {color: "blue", level: 90}
     link: *grafana-home
   d_aigua_crua_2:
     dataRef: "nivell"
@@ -105,7 +105,7 @@ cells:
         - {color: "red", level: 150}
     fillColor:
       thresholds:
-        - {color: "blue", level: 0}
+        - {color: "blue", level: 90}
     link: *grafana-home
   arqueta_aigua_crua:
     dataRef: "nivell"
@@ -122,7 +122,7 @@ cells:
         - {color: "red", level: 150}
     fillColor:
       thresholds:
-        - {color: "blue", level: 0}
+        - {color: "blue", level: 90}
     link: *grafana-home
   bombament_aigua_crua:
     dataRef: "nivell"
@@ -139,7 +139,7 @@ cells:
         - {color: "red", level: 150}
     fillColor:
       thresholds:
-        - {color: "blue", level: 0}
+        - {color: "blue", level: 90}
     link: *grafana-home
   d_cabrianes:
     dataRef: "nivell"
@@ -156,7 +156,7 @@ cells:
         - {color: "red", level: 150}
     fillColor:
       thresholds:
-        - {color: "blue", level: 0}
+        - {color: "blue", level: 90}
     link: *grafana-home
   b_cabrianes1:
     dataRef: "nivell"
@@ -173,7 +173,7 @@ cells:
         - {color: "red", level: 150}
     fillColor:
       thresholds:
-        - {color: "blue", level: 0}
+        - {color: "blue", level: 90}
     link: *grafana-home
   b_cabrianes_2:
     dataRef: "nivell"
@@ -190,7 +190,7 @@ cells:
         - {color: "red", level: 150}
     fillColor:
       thresholds:
-        - {color: "blue", level: 0}
+        - {color: "blue", level: 90}
     link: *grafana-home
   d_horta_avinyo:
     dataRef: "nivell"
@@ -207,7 +207,7 @@ cells:
         - {color: "red", level: 150}
     fillColor:
       thresholds:
-        - {color: "blue", level: 0}
+        - {color: "blue", level: 90}
     link: *grafana-home
   d_soler:
     dataRef: "nivell"
@@ -224,7 +224,7 @@ cells:
         - {color: "red", level: 150}
     fillColor:
       thresholds:
-        - {color: "blue", level: 0}
+        - {color: "blue", level: 90}
     link: *grafana-home
   d_turic2:
     dataRef: "nivell"
@@ -241,7 +241,7 @@ cells:
         - {color: "red", level: 150}
     fillColor:
       thresholds:
-        - {color: "blue", level: 0}
+        - {color: "blue", level: 90}
     link: *grafana-home
   d_paloma:
     dataRef: "nivell"
@@ -258,7 +258,7 @@ cells:
         - {color: "red", level: 150}
     fillColor:
       thresholds:
-        - {color: "blue", level: 0}
+        - {color: "blue", level: 90}
     link: *grafana-home
   d_can_vila:
     dataRef: "nivell"
@@ -275,7 +275,7 @@ cells:
         - {color: "red", level: 150}
     fillColor:
       thresholds:
-        - {color: "blue", level: 0}
+        - {color: "blue", level: 90}
     link: *grafana-home
   b_paloma:
     dataRef: "nivell"
@@ -292,7 +292,7 @@ cells:
         - {color: "red", level: 150}
     fillColor:
       thresholds:
-        - {color: "blue", level: 0}
+        - {color: "blue", level: 90}
     link: *grafana-home
   d_pirineu:
     dataRef: "nivell"
@@ -309,7 +309,7 @@ cells:
         - {color: "red", level: 150}
     fillColor:
       thresholds:
-        - {color: "blue", level: 0}
+        - {color: "blue", level: 90}
     link: *grafana-home
   b_pirineu:
     dataRef: "nivell"
@@ -326,7 +326,7 @@ cells:
         - {color: "red", level: 150}
     fillColor:
       thresholds:
-        - {color: "blue", level: 0}
+        - {color: "blue", level: 90}
     link: *grafana-home
   d_vista_pirineu1:
     dataRef: "nivell"
@@ -343,7 +343,7 @@ cells:
         - {color: "red", level: 150}
     fillColor:
       thresholds:
-        - {color: "blue", level: 0}
+        - {color: "blue", level: 90}
     link: *grafana-home
   d_vista_pirineu2:
     dataRef: "nivell"
@@ -360,7 +360,7 @@ cells:
         - {color: "red", level: 150}
     fillColor:
       thresholds:
-        - {color: "blue", level: 0}
+        - {color: "blue", level: 90}
     link: *grafana-home
   d_grau_elevat:
     dataRef: "nivell"
@@ -377,7 +377,7 @@ cells:
         - {color: "red", level: 150}
     fillColor:
       thresholds:
-        - {color: "blue", level: 0}
+        - {color: "blue", level: 90}
     link: *grafana-home
   b_grau_elevat:
     dataRef: "nivell"
@@ -394,7 +394,7 @@ cells:
         - {color: "red", level: 150}
     fillColor:
       thresholds:
-        - {color: "blue", level: 0}
+        - {color: "blue", level: 90}
     link: *grafana-home
   d_grau:
     dataRef: "nivell"
@@ -411,7 +411,7 @@ cells:
         - {color: "red", level: 150}
     fillColor:
       thresholds:
-        - {color: "blue", level: 0}
+        - {color: "blue", level: 90}
     link: *grafana-home
   b_grau_emergencia:
     dataRef: "nivell"
@@ -428,5 +428,5 @@ cells:
         - {color: "red", level: 150}
     fillColor:
       thresholds:
-        - {color: "blue", level: 0}
+        - {color: "blue", level: 90}
     link: *grafana-home
