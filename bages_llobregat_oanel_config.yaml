@@ -26,7 +26,7 @@ cells:
     dataRef: "temperature_0"
     label:
       separator: "cr"
-      units: "none"
+      units: "m³"
       decimalPoints: 1
     labelColor:
       thresholds:
