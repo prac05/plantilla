@@ -12,7 +12,6 @@ anchorLinks:
 
 #------------------------------------------------------------------------------
 # Panel Config
-
 gradientMode: "hue"
 cellIdPreamble: "cell-"
 cells: 
@@ -90,7 +89,6 @@ d_aigua_crua1:
       thresholds:
         - {color: "blue", level: 0}
     link: *grafana-home
-
   d_aigua_crua2:
     dataRef: "temperature_1"
     label:
@@ -108,7 +106,6 @@ d_aigua_crua1:
       thresholds:
         - {color: "blue", level: 0}
     link: *grafana-home
-
   arqueta_aigua_crua:
     dataRef: "temperature_1"
     label:
@@ -126,7 +123,6 @@ d_aigua_crua1:
       thresholds:
         - {color: "blue", level: 0}
     link: *grafana-home
-
   bombament_aigua_crua:
     dataRef: "temperature_1"
     label:
@@ -144,7 +140,6 @@ d_aigua_crua1:
       thresholds:
         - {color: "blue", level: 0}
     link: *grafana-home
-
   d_cabrianes:
     dataRef: "temperature_1"
     label:
@@ -162,7 +157,6 @@ d_aigua_crua1:
       thresholds:
         - {color: "blue", level: 0}
     link: *grafana-home
-
   b_cabrianes1:
     dataRef: "temperature_1"
     label:
@@ -180,7 +174,6 @@ d_aigua_crua1:
       thresholds:
         - {color: "blue", level: 0}
     link: *grafana-home
-
   b_cabrianes2:
     dataRef: "temperature_1"
     label:
@@ -198,7 +191,6 @@ d_aigua_crua1:
       thresholds:
         - {color: "blue", level: 0}
     link: *grafana-home
-
   d_soler:
     dataRef: "temperature_1"
     label:
@@ -216,7 +208,6 @@ d_aigua_crua1:
       thresholds:
         - {color: "blue", level: 0}
     link: *grafana-home
-
   d_turic2:
     dataRef: "temperature_1"
     label:
@@ -234,7 +225,6 @@ d_aigua_crua1:
       thresholds:
         - {color: "blue", level: 0}
     link: *grafana-home
-
   d_horta_avinyo:
     dataRef: "temperature_1"
     label:
@@ -252,7 +242,6 @@ d_aigua_crua1:
       thresholds:
         - {color: "blue", level: 0}
     link: *grafana-home
-
   d_paloma:
     dataRef: "temperature_1"
     label:
@@ -270,7 +259,6 @@ d_aigua_crua1:
       thresholds:
         - {color: "blue", level: 0}
     link: *grafana-home
-
   d_can_vila:
     dataRef: "temperature_1"
     label:
@@ -288,7 +276,6 @@ d_aigua_crua1:
       thresholds:
         - {color: "blue", level: 0}
     link: *grafana-home
-
   b_paloma:
     dataRef: "temperature_1"
     label:
@@ -301,3 +288,4 @@ d_aigua_crua1:
         - {color: "red", level: 19.99}
         - {color: "#006400", level: 20}
         - {color: "#006400", level: 40}
+    link: *grafana-home
