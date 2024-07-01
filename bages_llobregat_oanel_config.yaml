@@ -43,7 +43,7 @@ cells:
     dataRef: "temperature_1"
     label:
       separator: "cr"
-      units: "ops"
+      units: "m³"
       decimalPoints: 1
     labelColor:
       thresholds:
@@ -77,7 +77,7 @@ cells:
     dataRef: "temperature_1"
     label:
       separator: "cr"
-      units: "ops"  # Ajusta las unidades según corresponda
+      units: "m³"  
       decimalPoints: 1
     labelColor:
       thresholds:
@@ -94,7 +94,7 @@ cells:
     dataRef: "temperature_1"
     label:
       separator: "cr"
-      units: "pps"  # Ajusta las unidades según corresponda
+      units: "pps"  
       decimalPoints: 1
     labelColor:
       thresholds:
@@ -111,7 +111,7 @@ cells:
     dataRef: "temperature_1"
     label:
       separator: "cr"
-      units: "ops"  # Ajusta las unidades según corresponda
+      units: "m³"  
       decimalPoints: 1
     labelColor:
       thresholds:
@@ -128,7 +128,7 @@ cells:
     dataRef: "temperature_1"
     label:
       separator: "cr"
-      units: "pps"  # Ajusta las unidades según corresponda
+      units: "pps"  
       decimalPoints: 1
     labelColor:
       thresholds:
@@ -145,7 +145,7 @@ cells:
     dataRef: "temperature_1"
     label:
       separator: "cr"
-      units: "ops"  # Ajusta las unidades según corresponda
+      units: "m³"  
       decimalPoints: 1
     labelColor:
       thresholds:
@@ -162,7 +162,7 @@ cells:
     dataRef: "temperature_1"
     label:
       separator: "cr"
-      units: "ops"  # Ajusta las unidades según corresponda
+      units: "m³"  
       decimalPoints: 1
     labelColor:
       thresholds:
@@ -179,7 +179,7 @@ cells:
     dataRef: "temperature_1"
     label:
       separator: "cr"
-      units: "ops"  # Ajusta las unidades según corresponda
+      units: "m³"  
       decimalPoints: 1
     labelColor:
       thresholds:
@@ -196,7 +196,7 @@ cells:
     dataRef: "temperature_1"
     label:
       separator: "cr"
-      units: "ops"  # Ajusta las unidades según corresponda
+      units: "m³"  
       decimalPoints: 1
     labelColor:
       thresholds:
@@ -213,7 +213,7 @@ cells:
     dataRef: "temperature_1"
     label:
       separator: "cr"
-      units: "ops"  # Ajusta las unidades según corresponda
+      units: "m³"  
       decimalPoints: 1
     labelColor:
       thresholds:
@@ -230,7 +230,7 @@ cells:
     dataRef: "temperature_1"
     label:
       separator: "cr"
-      units: "ops"  # Ajusta las unidades según corresponda
+      units: "m³"  
       decimalPoints: 1
     labelColor:
       thresholds:
@@ -247,7 +247,7 @@ cells:
     dataRef: "temperature_1"
     label:
       separator: "cr"
-      units: "ops"  # Ajusta las unidades según corresponda
+      units: "m³"  
       decimalPoints: 1
     labelColor:
       thresholds:
@@ -264,7 +264,7 @@ cells:
     dataRef: "temperature_1"
     label:
       separator: "cr"
-      units: "ops"  # Ajusta las unidades según corresponda
+      units: "m³"  
       decimalPoints: 1
     labelColor:
       thresholds:
@@ -281,7 +281,7 @@ cells:
     dataRef: "temperature_0"
     label:
       separator: "cr"
-      units: "ops"  # Ajusta las unidades según corresponda
+      units: "m³"  
       decimalPoints: 1
     labelColor:
       thresholds:
@@ -298,7 +298,7 @@ cells:
     dataRef: "temperature_1"
     label:
       separator: "cr"
-      units: "ops"  # Ajusta las unidades según corresponda
+      units: "m³"  
       decimalPoints: 1
     labelColor:
       thresholds:
@@ -315,7 +315,7 @@ cells:
     dataRef: "temperature_1"
     label:
       separator: "cr"
-      units: "ops"  # Ajusta las unidades según corresponda
+      units: "m³"  
       decimalPoints: 1
     labelColor:
       thresholds:
@@ -332,7 +332,7 @@ cells:
     dataRef: "temperature_1"
     label:
       separator: "cr"
-      units: "ops"  # Ajusta las unidades según corresponda
+      units: "m³"  
       decimalPoints: 1
     labelColor:
       thresholds:
@@ -349,7 +349,7 @@ cells:
     dataRef: "temperature_1"
     label:
       separator: "cr"
-      units: "ops"  # Ajusta las unidades según corresponda
+      units: "m³"  
       decimalPoints: 1
     labelColor:
       thresholds:
@@ -366,7 +366,7 @@ cells:
     dataRef: "temperature_1"
     label:
       separator: "cr"
-      units: "ops"  # Ajusta las unidades según corresponda
+      units: "m³"  
       decimalPoints: 1
     labelColor:
       thresholds:
@@ -383,7 +383,7 @@ cells:
     dataRef: "temperature_0"
     label:
       separator: "cr"
-      units: "ops"  # Ajusta las unidades según corresponda
+      units: "m³"  
       decimalPoints: 1
     labelColor:
       thresholds:
@@ -400,7 +400,7 @@ cells:
     dataRef: "temperature_1"
     label:
       separator: "cr"
-      units: "ops"  # Ajusta las unidades según corresponda
+      units: "m³"  
       decimalPoints: 1
     labelColor:
       thresholds:
@@ -417,7 +417,7 @@ cells:
     dataRef: "temperature_1"
     label:
       separator: "cr"
-      units: "ops"  # Ajusta las unidades según corresponda
+      units: "m³"  
       decimalPoints: 1
     labelColor:
       thresholds:
