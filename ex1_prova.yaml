@@ -22,7 +22,7 @@ cells:
     docs:
     link:
       url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/README.md"
-  diposit_santpedor2:
+  diposit_santpedor:
     dataRef: "temperature_0"
     label:
       separator: "cr"
