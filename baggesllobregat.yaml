@@ -30,8 +30,10 @@ cells:
       decimalPoints: 1
     labelColor:
       thresholds:
-        - {color: "red", level: 20}
-        - {color: "green", level: 20.01}
+        - {color: "red", level: 0}
+        - {color: "red", level: 19.99}
+        - {color: "green", level: 20}
+        - {color: "green", level: 40}
         - {color: "red", level: 40.01}
     fillColor:
       thresholds:
@@ -45,8 +47,10 @@ cells:
       decimalPoints: 1
     labelColor:
       thresholds:
-        - {color: "red", level: 20}
-        - {color: "green", level: 20.01}
+        - {color: "red", level: 0}
+        - {color: "red", level: 19.99}
+        - {color: "green", level: 20}
+        - {color: "green", level: 40}
         - {color: "red", level: 40.01}
     fillColor:
       thresholds:
@@ -60,8 +64,10 @@ cells:
       decimalPoints: 1
     labelColor:
       thresholds:
-        - {color: "red", level: 20}
-        - {color: "green", level: 20.01}
+        - {color: "red", level: 0}
+        - {color: "red", level: 19.99}
+        - {color: "green", level: 20}
+        - {color: "green", level: 40}
         - {color: "red", level: 40.01}
     fillColor:
       thresholds:
@@ -75,8 +81,10 @@ cells:
       decimalPoints: 0
     labelColor:
       thresholds:
-        - {color: "red", level: 20}
-        - {color: "green", level: 20.01}
+        - {color: "red", level: 0}
+        - {color: "red", level: 19.99}
+        - {color: "green", level: 20}
+        - {color: "green", level: 40}
         - {color: "red", level: 40.01}
     fillColor:
       thresholds:
