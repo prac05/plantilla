@@ -22,7 +22,7 @@ cells:
     docs:
     link:
       url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/README.md"
-  diposit_santpedor:
+ sallent:
     dataRef: "temperature_0"
     label:
       separator: "cr"
@@ -34,7 +34,7 @@ cells:
         - {color: "orange", level: 50}
         - {color: "red", level: 100}
     link: *grafana-home
-  etap_bages_llobregat_1:
+  etap_bagesllobregat_2:
     dataRef: "temperature_1"
     label:
       separator: "cr"
@@ -46,7 +46,7 @@ cells:
         - {color: "orange", level: 50}
         - {color: "red", level: 100}
     link: *grafana-home
-  etap_bages_llobregat_2:
+  etap_bagesllobregat_1:
     dataRef: "temperature_1"
     label:
       separator: "cr"
