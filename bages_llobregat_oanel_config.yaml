@@ -90,3 +90,20 @@ cells:
       thresholds:
         - {color: "blue", level: 0}
     link: *grafana-home
+  d_aigua_crua1:
+    dataRef: "temperature_1"
+    label:
+      separator: "cr"
+      units: "ops"  # Ajusta las unidades según corresponda
+      decimalPoints: 1
+    labelColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 19.99}
+        - {color: "#006400", level: 20}
+        - {color: "#006400", level: 40}
+        - {color: "red", level: 40.01}
+    fillColor:
+      thresholds:
+        - {color: "blue", level: 0}
+    link: *grafana-home
